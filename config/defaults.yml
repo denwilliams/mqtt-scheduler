@@ -1,0 +1,6 @@
+mqtt:
+  host: localhost
+  set_topic: scheduler/set
+  clear_topic: scheduler/clear
+jobs:
+  path: ./jobs
