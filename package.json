@@ -2,7 +2,10 @@
   "name": "mqtt-scheduler",
   "version": "1.0.0",
   "description": "Publishes MQTT messages at the desired interval, managed via MQTT topics",
-  "main": "lib/index.js",
+  "main": "main.js",
+  "bin": {
+    "mqtt-scheduler": "./main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
